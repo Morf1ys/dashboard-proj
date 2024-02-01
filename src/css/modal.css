@@ -1,10 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif; /* Замінено Arial на Montserrat */
-  background-color: #95a5a6;
+.content-cont {
+  position: relative;
 }
-
 .left-menu {
   width: 300px;
   height: 100%;
@@ -32,7 +28,8 @@ body {
   padding: 0;
   padding-left: 80px;
   padding-top: 20px;
-  margin-bottom: 580px;
+  /* margin-bottom: 80px; */
+  position: relative;
 }
 
 .menu-item {
@@ -95,6 +92,21 @@ body {
 .sp-logo-txt {
   color: #2ecc71;
 }
+.settings-button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px;
+  color: #7e9499;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecf0f1;
+  transform: translateX(52%);
+}
 /* Продовження стилізації */
 .settings-button:hover,
 .settings-button:focus {
@@ -105,5 +117,3 @@ body {
 .btn-txt:focus {
   color: #2ecc71; /* Змінений колір тексту при ховері та фокусі на зелений */
 }
-
-/* Right Section Styles */

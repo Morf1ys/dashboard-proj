@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; /* Замінено Arial на Montserrat */
+  background-color: #d4dede;
+}
+/* .content-cont {
+  display: flex;
+} */
