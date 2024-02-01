@@ -1,0 +1,95 @@
+<div class="right-section">
+    <!-- ... Код для верхньої частини сторінки (пошук, вибір дати, кнопки, інформація про користувача) -->
+
+    <!-- Section 2 -->
+    <div class="section-2">
+        <div class="info-block">
+            <!-- Блок для довільної інформації та кнопки для додавання користувача -->
+            <p>Довільна інформація тут...</p>
+            <button class="add-user-button">Додати користувача</button>
+        </div>
+
+        <!-- Основний контент з інформацією про користувачів -->
+        <div class="users-content">
+            <h2>Інформація про користувачів</h2>
+            <div class="users-table">
+                <!-- Таблиця для відображення інформації про користувачів -->
+                <div class="user-row">
+                    <div class="user-avatar"></div>
+                    <div class="user-info">
+                        <p class="user-name">Ім'я користувача</p>
+                        <p class="user-host">Хост</p>
+                        <p class="user-package">Package Name</p>
+                        <p class="user-type">TYPE</p>
+                        <p class="user-duration">Duration</p>
+                        <p class="user-tourist">Tourist</p>
+                        <p class="user-amount">Amount</p>
+                        <p class="user-status">Status</p>
+                    </div>
+                </div>
+                <!-- Додайте ще рядки для інших користувачів тут -->
+            </div>
+        </div>
+    </div>
+</div>
+
+.right-section {
+margin-left: 300px; /* Змінено для врахування ширини лівого меню */
+padding: 20px;
+box-sizing: border-box;
+border-top-left-radius: 20px; /* Заокруглені кути */
+border-bottom-left-radius: 20px;
+background-color: #ffffff; /* Колір фону */
+}
+
+/* Top Section Styles */
+
+.top-section {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.search-bar,
+.date-picker,
+.action-buttons,
+.user-info {
+padding: 10px;
+border-radius: 10px;
+background-color: #ecf0f1; /* Колір блоків */
+}
+
+.search-bar,
+.date-picker {
+width: 30%; /* Задаємо розмір для вікна пошуку і вибору дати */
+}
+
+.action-buttons {
+display: flex;
+gap: 10px;
+}
+
+/* Section 2 Styles */
+
+.section-2 {
+display: flex;
+flex-direction: column;
+}
+
+.info-block {
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+background-color: #ecf0f1; /* Колір блоку для довільної інформації */
+}
+
+.users-content {
+padding: 20px;
+border-radius: 10px;
+background-color: #ecf0f1; /* Колір блоку для інформації про користувачів */
+}
+
+.users-table {
+/* Стилі для таблиці, можна вказати, якщо потрібно */
+}
