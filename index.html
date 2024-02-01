@@ -8,15 +8,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
     
+    
+    <link rel="stylesheet" href="/node_modules/vanilla-calendar-pro/build/vanilla-calendar.layout.min.css">
     <title>Your Project</title>
-  <link rel="stylesheet" href="/dashboard-proj/assets/index-3d2892b5.css">
+  <script type="module" crossorigin src="/dashboard-proj/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/dashboard-proj/assets/vendor-852b6508.js">
+  <link rel="stylesheet" href="/dashboard-proj/assets/vendor-91f5b3c3.css">
+  <link rel="stylesheet" href="/dashboard-proj/assets/index-1010fbca.css">
 </head>
 
 <body>
+    <!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
     <!-- Left Menu with Modal -->
-    <div class="left-menu">
+    <div class="left-menu content-cont">
         <div class="modal-header">
             <h2 class="logo-txt"><span class="sp-logo-txt">Your</span>Project</h2>
         </div>
@@ -60,6 +75,45 @@
 
 
 
+</body>
+
+
+</html>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поле для пошуку</title>
+
+</head>
+
+<body>
+    <div class="search-container">
+        <div class="cont-headr">
+            <form>
+                <input class="inp-search" type="text" placeholder="Пошук тут...">
+                <button class="search-btn" type="submit"></button>
+            </form>
+
+            <div>
+                <input class="inp-calendar" id="calendar-input" type="text" placeholder="Оберіть дату" readonly />
+                <div id="calendar-input-div"></div>
+                <div id="calendar"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/src/js/calendar.js"></script>
+    <script src="calendar.ts"></script>
+
+</body>
+
+</html>
+
+    
+    <script src="/node_modules/vanilla-calendar-pro/build/vanilla-calendar.min.js"></script>
 </body>
 
 </html>
