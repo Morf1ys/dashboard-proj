@@ -24,11 +24,9 @@ function addDarkmodeWidget() {
 }
 window.addEventListener('load', addDarkmodeWidget);
 
-Object.assign(window, {
-  $: jQuery,
-  jQuery,
-});
+// Object.assign(window, {
+//   $: jQuery,
+//   jQuery,
+// });
 
-let table = new DataTable('table', {
-  search: false,
-});
+let table = new DataTable('table');
