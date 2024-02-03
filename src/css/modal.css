@@ -28,7 +28,6 @@
   padding: 0;
   padding-left: 80px;
   padding-top: 20px;
-  /* margin-bottom: 80px; */
   position: relative;
 }
 
@@ -57,7 +56,6 @@
 }
 
 .settings-button {
-  /* width: 100%; */
   padding: 10px;
   padding-left: 60px;
   color: #7e9499;
@@ -82,6 +80,7 @@
   letter-spacing: 0.64px;
 }
 .logo-txt {
+  padding-top: 20px;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -107,13 +106,13 @@
   background-color: #ecf0f1;
   transform: translateX(52%);
 }
-/* Продовження стилізації */
+
 .settings-button:hover,
 .settings-button:focus {
-  background-color: #ecf0f1; /* Змінений колір при ховері та фокусі на сірий */
+  background-color: #ecf0f1;
 }
 
 .btn-txt:hover,
 .btn-txt:focus {
-  color: #2ecc71; /* Змінений колір тексту при ховері та фокусі на зелений */
+  color: #2ecc71;
 }

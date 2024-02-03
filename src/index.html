@@ -8,19 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
     <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="/node_modules/vanilla-calendar-pro/build/vanilla-calendar.layout.min.css">
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./node_modules/vanilla-calendar-pro/build/vanilla-calendar.layout.min.css">
     <title>Your Project</title>
 </head>
 
 <body>
-    <load src="./public/modal.html" />
-    <load src="./public/header.html" />
-
+    <div class="background">
+        <load src="./public/modal.html" />
+        <load src="./public/header.html" />
+        <load src="./public/table.html" />
+        <div class="darkmode-toggle">
+        </div>
+    </div>
     <script src="./js/calendar.ts" type="module"></script>
-    <script src="/node_modules/vanilla-calendar-pro/build/vanilla-calendar.min.js"></script>
+    <script src="../node_modules/vanilla-calendar-pro/build/vanilla-calendar.min.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
+
+
 </body>
 
 </html>

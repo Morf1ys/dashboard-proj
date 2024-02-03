@@ -6,8 +6,9 @@ body {
 }
 .search-container {
   position: absolute;
-  margin-top: 15px; /* Відступ від меню */
-  transform: translateX(320px); /* Зміщення вправо на 20px */
+  margin-top: 15px;
+  transform: translateX(44%);
+  display: flex;
 }
 * {
   box-sizing: border-box;
@@ -17,7 +18,8 @@ form {
   float: right;
   margin-right: 30px;
 }
-.inp-search {
+.inp-search,
+.inp-calendar {
   width: 200px;
   height: 40px;
   padding-left: 15px;
@@ -32,35 +34,51 @@ form {
   width: 250px;
 }
 .search-btn {
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   background: none;
   border: none;
   position: absolute;
-  top: 2px;
+  top: 0;
   right: 0;
 }
-/* .search-btn:before {
-  
-  font-family: FontAwesome;
-  color: #324b4e;
-} */
-/* має бути іконка але ПЛАТНО */
-
-.inp-calendar {
-  margin-top: 20xp;
-  width: 200px;
-  height: 40px;
-  padding-left: 15px;
-  border-radius: 42px;
-  border: 2px solid #324b4e;
-  background: #fffffe;
-  outline: none;
-  position: relative;
-  transition: 0.3s linear;
-}
-
 .cont-headr {
   display: flex;
-  flex-direction: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-icon-header {
+  margin-right: 50px;
+}
+.list-icon-header,
+.btn-icon-user-sett {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+.btn-icon {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.header-soc-icon {
+  width: 45px;
+  height: 45px;
+  fill: currentColor;
+}
+.user-name-ac {
+  position: absolute;
+  transform: translateY(45px);
+  left: 850px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.64px;
+  margin: 0;
+  padding: 0;
 }

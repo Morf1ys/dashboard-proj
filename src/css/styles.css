@@ -1,9 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif; /* Замінено Arial на Montserrat */
-  background-color: #d4dede;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #64cdcd;
 }
-/* .content-cont {
-  display: flex;
-} */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  z-index: -1;
+  position: absolute;
+  transition: 0.3s;
+}
+.darkmode-toggle {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.9s;
+  z-index: 998;
+}

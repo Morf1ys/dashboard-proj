@@ -15,6 +15,10 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "darkmode-js": "^1.5.7",
+    "datatables.net": "^1.13.8",
+    "datatables.net-dt": "^1.13.8",
+    "jquery": "^3.7.1",
     "react-spring": "^9.7.3",
     "vanilla-calendar-pro": "^2.9.3",
     "vite-plugin-full-reload": "^1.0.5",
