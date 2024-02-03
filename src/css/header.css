@@ -69,10 +69,16 @@ form {
   height: 45px;
   fill: currentColor;
 }
+.btn-icon-svg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .user-name-ac {
   position: absolute;
-  transform: translateY(45px);
-  left: 850px;
+  transform: translateY(25px);
+  left: -10px;
   font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
