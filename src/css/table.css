@@ -1,5 +1,9 @@
 .table-cont {
   position: absolute;
   margin-top: 120px;
-  transform: translateX(390px);
+  transform: translateX(400px);
+  background-color: whitesmoke;
+  width: 915px;
+  border-radius: 1cap;
+  padding: 15px;
 }

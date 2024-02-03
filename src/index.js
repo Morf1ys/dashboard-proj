@@ -1,4 +1,6 @@
 import Darkmode from 'darkmode-js';
+import jQuery from 'jquery';
+import DataTable from 'datatables.net';
 new Darkmode().showWidget();
 
 const options = {
@@ -21,3 +23,12 @@ function addDarkmodeWidget() {
   new Darkmode().showWidget();
 }
 window.addEventListener('load', addDarkmodeWidget);
+
+Object.assign(window, {
+  $: jQuery,
+  jQuery,
+});
+
+let table = new DataTable('table', {
+  search: false,
+});
