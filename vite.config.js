@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import path from 'path';
 import glob from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
@@ -8,7 +9,16 @@ export default defineConfig(({ command }) => {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
-    root: 'src',
+    root: path.resolve(__dirname, 'src'),
+    resolve: {
+      alias: {
+        '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+      }
+    },
+    server: {
+      port: 8080,
+      hot: true
+    },
     build: {
       sourcemap: true,
 
