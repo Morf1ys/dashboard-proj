@@ -1,7 +1,9 @@
-import Darkmode from 'darkmode-js';
+// import Darkmode from 'darkmode-js';
 import jQuery from 'jquery';
+// Import our custom CSS
+import './scss/styles.scss'
 import DataTable from 'datatables.net';
-new Darkmode().showWidget();
+// new Darkmode().showWidget();
 
 const options = {
   bottom: '64px', // default: '32px'
@@ -17,12 +19,12 @@ const options = {
   autoMatchOsTheme: true, // default: true
 };
 
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
-function addDarkmodeWidget() {
-  new Darkmode().showWidget();
-}
-window.addEventListener('load', addDarkmodeWidget);
+// const darkmode = new Darkmode(options);
+// darkmode.showWidget();
+// function addDarkmodeWidget() {
+//   new Darkmode().showWidget();
+// }
+// window.addEventListener('load', addDarkmodeWidget);
 
 // Object.assign(window, {
 //   $: jQuery,
