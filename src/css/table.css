@@ -7,3 +7,71 @@
   border-radius: 1cap;
   padding: 15px;
 }
+#example {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+#example th {
+  background-color: #f2f2f2;
+  color: #333333;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+}
+#example td {
+  border: 2px solid #0a0909;
+  padding: 8px;
+}
+#example tr:hover {
+  background-color: #f9f9f9;
+}
+#example.btn:hover {
+  background-color: #0056b3;
+}
+#myTable tr.selected {
+  background-color: #007bff;
+  color: #ffffff;
+}
+#myTable tr:hover.selected {
+  background-color: #0056b3;
+}
+.dataTables_wrapper {
+  position: relative;
+}
+.dataTables_paginate a {
+  display: inline-block;
+  padding: 1px 5px;
+  margin: 0 4px;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.dataTables_paginate a:hover {
+  color: #007bff;
+  border-color: none;
+  cursor: pointer;
+}
+.dataTables_filter {
+  margin-bottom: 10px;
+}
+.dataTables_filter input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  width: 200px;
+}
+.fg-toolbar {
+  display: flex;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+.dataTables_length {
+  margin-top: 0px;
+}
+/* ------------------------------------ */

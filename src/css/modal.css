@@ -14,7 +14,7 @@
 }
 
 .modal-header {
-  text-align: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -78,6 +78,7 @@
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.64px;
+  margin: 0;
 }
 .logo-txt {
   padding-top: 20px;
